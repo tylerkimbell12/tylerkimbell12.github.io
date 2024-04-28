@@ -89,16 +89,7 @@ export default function Hero() {
         <Row className="align-items-center text-center">
           <Col>
             <h1 className="mb-3 display-3 title">{name}</h1>
-            <div className="d-flex align-items-center justify-content-center">
-              <SocialLinks />
-            </div>
-          </Col>
-          <Col className="d-none d-md-block">
-            <img
-              src={Logo}
-              alt="React Logo"
-              className="w-75 mx-auto hero-img"
-            />
+            
           </Col>
         </Row>
         <Row className="align-items-end down-container">

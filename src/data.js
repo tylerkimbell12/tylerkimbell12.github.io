@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 // import newLogo from "./images/yourFileName"
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+import Logo from "./images/profile.jpg";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -41,12 +41,12 @@ export const skillData = [
   {
     id: 1,
     skill: <Icon icon="mdi:language-html5" className="display-4" />,
-    name: "HTML5",
+    name: "HTML",
   },
   {
     id: 2,
     skill: <Icon icon="ion:logo-css3" className="display-4" />,
-    name: "CSS3",
+    name: "CSS",
   },
   {
     id: 3,
@@ -65,23 +65,23 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
-  },
-  {
-    id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
     skill: <Icon icon="bi:git" className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
+    id: 7,
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
+  },
+  {
+    id: 8,
+    skill: <Icon icon="fa6-brands:aws" className="display-4" />,
+    name: "AWS",
+  },
+  {
+    id: 9,
+    skill: <Icon icon="fa6-brands:node" className="display-4" />,
+    name: "Express",
   },
 ];
 
